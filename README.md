@@ -12,8 +12,9 @@ The following list of commands will download, install, and build the Boron stand
 
 ```
 $ git clone https://github.com/hobbsbros/boron-std.git
-$ mv boron-std $HOME/.boron-std
-$ boron $HOME/.boron-std --build
+# mv boron-std std
+$ boron std --build
+$ mv std $HOME/.boron-std
 ```
 
 # WIP Disclaimer

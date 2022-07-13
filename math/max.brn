@@ -1,0 +1,9 @@
+# Computes the maximum of two numbers.
+
+max :: int x, int y -> int {
+    if x < y {
+        return y
+    } else {
+        return x
+    }
+}
